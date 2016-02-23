@@ -1,0 +1,127 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+ * v2.0 | 20110126
+ * License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 'r_' prefix denotes Resene color name (http://www.resene.co.nz/) */
+/* 'cl_' prefix denotes Color Lovers color name (http://www.colourlovers.com/) */
+.wrapper {
+  position: relative;
+  top: 10px;
+  height: 300px;
+  max-width: 600px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  background: #f2f0e6;
+  text-align: center;
+  padding: 10px;
+}
+.wrapper h1 {
+  font-size: 48px;
+  margin-top: 15%;
+}
+
+.div {
+  height: 100px;
+  width: 100px;
+  background: #3a3532;
+}
+
+h3 {
+  font-size: 24px;
+  color: #f2f0e6;
+  padding: 5px;
+  margin-top: 25%;
+}
+
+#div1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#div2 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#div3 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: #E68739;
+}
+
+.clearfix:before, clearfix:after {
+  content: " ";
+  display: block;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+aside {
+  position: absolute;
+  top: 0px;
+  right: 200px;
+  max-width: 200px;
+  height: 800px;
+  background: #3a3532;
+}
+aside h3 {
+  padding-left: 10px;
+}
