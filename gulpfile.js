@@ -27,9 +27,9 @@ gulp.task('jade',function() {
 
 // auto-prefixer for cross browser tweaks
 // ...variables
-// var autoprefixerOptions = {
-// 	browsers: ['last 2 versions', '>5%', 'Firefox ESR']
-// };
+var autoprefixerOptions = {
+	browsers: ['last 2 versions', '>5%', 'Firefox ESR']
+};
 
 // run this by typing "gulp styles" in CLI
 gulp.task('styles', function(){ 
@@ -37,7 +37,7 @@ gulp.task('styles', function(){
 		.pipe(gulp.dest('css'))
 		.pipe(rename({suffix: '.min'}))
 		// .pipe(minifycss())
-		.pipe(prefix('last 2 version'))
+		.pipe(prefix())
 		.pipe(gulp.dest('css'));
 });
 

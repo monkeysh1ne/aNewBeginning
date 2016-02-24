@@ -138,6 +138,7 @@ aside h3 {
   background: #f2f0e6;
   flex-direction: row;
   justify-content: space-around;
+  align-items: stretch;
 }
 
 .flex-item {
