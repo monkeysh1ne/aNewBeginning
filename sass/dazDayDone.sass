@@ -1,0 +1,54 @@
+// dazDayDone.sass
+
+@import 'reset'
+@import 'colors'
+
+html, body
+	height: 100%
+	margin: 0
+
+body
+	background: white
+
+.main, 
+.footer,
+.header
+	padding: 2em
+	font-family: 'Open Sans', sans-serif
+
+.container
+	display: flex
+	flex-direction: column
+	min-height: 100vh
+	background: white
+
+.main
+	flex: 1
+	margin: 0 auto
+	width: 600px
+	background: $r_eighthJoss
+
+.footer,
+.header
+	width: 100%
+	background: $r_kilamanjaro
+	p
+		font-size: 2em
+
+.header
+	height: 100px
+
+.footer
+	height: 150px
+
+aside p
+	display: box
+	position: relative
+	right: -550px
+	width: 160px
+	background: $r_madras
+	font-family: 'Open Sans', sans-serif
+	font-size: 1.5em
+	padding: 1em
+	background: $r_adrenalin
+	color: white

@@ -1,0 +1,125 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+ * v2.0 | 20110126
+ * License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 'r_' prefix denotes Resene color name (http://www.resene.co.nz/) */
+/* 'cl_' prefix denotes Color Lovers color name (http://www.colourlovers.com/) */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: white;
+}
+
+.main,
+.footer,
+.header {
+  padding: 2em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  background: white;
+}
+
+.main {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0 auto;
+  width: 600px;
+  background: #e0d8cc;
+}
+
+.footer,
+.header {
+  width: 100%;
+  background: #3a3532;
+}
+.footer p,
+.header p {
+  font-size: 2em;
+}
+
+.header {
+  height: 100px;
+}
+
+.footer {
+  height: 150px;
+}
+
+aside p {
+  display: box;
+  position: relative;
+  right: -550px;
+  width: 160px;
+  background: #473e23;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  padding: 1em;
+  background: #ff5200;
+  color: white;
+}
