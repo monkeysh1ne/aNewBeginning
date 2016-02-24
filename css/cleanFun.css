@@ -119,9 +119,12 @@ aside {
   position: absolute;
   top: 0px;
   right: 0px;
-  max-width: 100px;
-  height: 800px;
+  max-width: 200px;
+  height: 500px;
   background: #FBE7B2;
+  border: 10px solid #3a3532;
+  border-radius: 15px;
+  text-align: center;
 }
 aside h3 {
   padding-left: 10px;
