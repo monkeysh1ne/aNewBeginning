@@ -64,7 +64,8 @@ table {
   text-align: center;
   padding: 10px;
 }
-.wrapper h1 {
+
+h1 {
   font-size: 48px;
   margin-top: 15%;
 }
@@ -117,11 +118,26 @@ h3 {
 aside {
   position: absolute;
   top: 0px;
-  right: 200px;
-  max-width: 200px;
+  right: 0px;
+  max-width: 100px;
   height: 800px;
-  background: #3a3532;
+  background: #FBE7B2;
 }
 aside h3 {
   padding-left: 10px;
+  color: #3a3532;
+}
+
+.flex-container {
+  display: flex;
+  max-width: 600px;
+  height: 300px;
+  background: #f2f0e6;
+}
+
+.flex-item {
+  background: #3a3532;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
 }
