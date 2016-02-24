@@ -1,1 +1,154 @@
-.wrapper,aside{text-align:center}a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}table{border-collapse:collapse;border-spacing:0}.wrapper{position:relative;top:10px;height:300px;max-width:600px;box-sizing:border-box;margin:0 auto;background:#f2f0e6;padding:10px}#div1,#div2,#div3,aside{position:absolute}h1{font-size:48px;margin-top:15%}.div{height:100px;width:100px;background:#3a3532}h3{font-size:24px;color:#f2f0e6;padding:5px;margin-top:25%}#div1{top:10px;left:10px}#div2{top:10px;right:10px}#div3{bottom:10px;left:10px;background:#E68739}.clearfix:before,clearfix:after{content:" ";display:block}.clearfix:after{clear:both}aside{top:0;right:0;max-width:200px;height:500px;background:#FBE7B2;border:10px solid #3a3532;border-radius:15px}aside h3{padding-left:10px;color:#3a3532}.flex-container{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;max-width:600px;height:300px;background:#f2f0e6}.flex-item{background:#3a3532;width:100px;height:100px;margin:5px}
+/* http://meyerweb.com/eric/tools/css/reset/
+ * v2.0 | 20110126
+ * License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 'r_' prefix denotes Resene color name (http://www.resene.co.nz/) */
+/* 'cl_' prefix denotes Color Lovers color name (http://www.colourlovers.com/) */
+.wrapper {
+  position: relative;
+  top: 10px;
+  height: 300px;
+  max-width: 600px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  background: #f2f0e6;
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-top: 15%;
+}
+
+.div {
+  height: 100px;
+  width: 100px;
+  background: #3a3532;
+}
+
+h3 {
+  font-size: 24px;
+  color: #f2f0e6;
+  padding: 5px;
+  margin-top: 25%;
+}
+
+#div1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#div2 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#div3 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: #E68739;
+}
+
+.clearfix:before, clearfix:after {
+  content: " ";
+  display: block;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+aside {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  max-width: 200px;
+  height: 500px;
+  background: #FBE7B2;
+  border: 10px solid #3a3532;
+  border-radius: 15px;
+  text-align: center;
+}
+aside h3 {
+  padding-left: 10px;
+  color: #3a3532;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 600px;
+  height: 300px;
+  background: #f2f0e6;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+
+.flex-item {
+  background: #3a3532;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
