@@ -3,45 +3,56 @@
 @import 'reset'
 @import 'colors'
 
+
+// color template
+$bg: white
+$asideFG: black
+$mainBG: $r_eighthJoss
+$asideBG: $r_karma
+$mainFG: black
+
+
+
+
 html, body
 	height: 100%
 	margin: 0
 
 body
-	background: white
+	background: $bg
 
 .main, 
 .footer,
 .header
 	padding: 2em
 	font-family: 'Open Sans', sans-serif
-	color: white
+	color: $bg
 
 .container
 	display: flex
 	flex-direction: column
 	min-height: 100vh
-	background: white
+	background: $bg
 
 .main
 	flex: 1
 	margin: 0 auto
 	width: 600px
-	background: $r_eighthJoss
+	background: $mainBG
 	p
 		font-size: 1.5rem
 		padding-bottom: 1em
-		color: $r_kilamanjaro
+		color: $mainFG
 	ul li
 		font-size: 1.3em
 		padding-left: 15px
 		padding-bottom: 15px
-		color: $r_kilamanjaro
+		color: $mainFG
 
 .footer,
 .header
 	width: 100%
-	background: $r_kilamanjaro
+	background: $mainFG
 
 
 .header
@@ -59,8 +70,8 @@ aside p
 	font-family: 'Open Sans', sans-serif
 	font-size: 1.5em
 	padding: 1em
-	background: $r_adrenalin
-	color: white
+	background: $asideBG
+	color: $asideFG
 
 #sad
 	list-style-image: url(../img/emoji-sad.png)

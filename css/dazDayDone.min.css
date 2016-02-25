@@ -96,19 +96,19 @@ body {
 .main p {
   font-size: 1.5rem;
   padding-bottom: 1em;
-  color: #3a3532;
+  color: black;
 }
 .main ul li {
   font-size: 1.3em;
   padding-left: 15px;
   padding-bottom: 15px;
-  color: #3a3532;
+  color: black;
 }
 
 .footer,
 .header {
   width: 100%;
-  background: #3a3532;
+  background: black;
 }
 
 .header {
@@ -131,8 +131,8 @@ aside p {
   font-family: "Open Sans", sans-serif;
   font-size: 1.5em;
   padding: 1em;
-  background: #ff5200;
-  color: white;
+  background: #b6a237;
+  color: black;
 }
 
 #sad {
