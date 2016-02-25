@@ -120,7 +120,10 @@ body {
 }
 
 aside p {
-  display: box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   right: -550px;
   width: 160px;
@@ -130,4 +133,12 @@ aside p {
   padding: 1em;
   background: #ff5200;
   color: white;
+}
+
+#sad {
+  list-style-image: url(../img/emoji-sad.png);
+}
+
+#happy {
+  list-style-image: url(../img/emoji-happy.png);
 }
